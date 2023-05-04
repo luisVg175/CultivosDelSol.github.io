@@ -1,0 +1,26 @@
+.titulo5{
+    margin-top: 400px;
+    width: 100%;
+    height: 50px;
+}
+
+.imagen3 img{
+    height: 300px;
+    width: 400px; 
+    margin-right: 100px;
+}
+
+.texto3{
+    width: 100%;
+    height: 100px;
+    font: 110% arial; 
+}
+
+.imgTrujillo{
+    width: 30%;
+    float: left;
+}
+.wasa{
+    width: 70%;
+    float: right;
+}

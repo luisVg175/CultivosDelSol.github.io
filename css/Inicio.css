@@ -1,0 +1,141 @@
+body.black-theme{
+    background-color: #18171c;
+}
+body.black-theme h2,body.black-theme p,body.black-theme p.lead{
+    color:white;
+}
+
+header{
+    background: linear-gradient(rgb(210, 238, 49), #25941b);
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 15px 20px rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    bottom: 10px;
+    margin-left: 5px;
+}
+
+nav{
+    margin-bottom: 2em;
+	background-color: #25941b;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 10px 0;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+	line-height: 1;
+}
+
+nav ul li a{
+	color: #ffffff;
+    text-shadow: 0px 5px 5px rgb(0, 0, 0);
+	text-decoration: none;
+	display: flex;
+	padding: 5px 0 10px;
+	position: relative;
+}
+
+.a-nav-activo{
+	color: white;
+	font-weight: 700;
+}
+.span-nav-activo{
+    width: 100%;
+    height: 5px;
+    background-color: #0295f8;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+
+.span-nav{
+	width: 100%;
+	height: 5px;
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	bottom: 0;
+	display: block;
+}
+nav ul li a:hover {color: white;text-decoration: none;}
+nav ul li a:hover span{background-color: #0295f8; transition: all 0.5s ease;}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: #ccc;
+    font-size: 10px;
+    padding: 10px 0 5px;
+    clear: both;
+}
+
+.footer_link{
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #373d41;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-weight: 400;
+    font-family: verdana;
+    color: #373d41;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(43, 245, 120, 0.219);
+}
+main{
+ margin: 100px;
+}
+
+main{
+    margin: 100px;
+}
+table{
+    width: 600px;
+    align-content: center;
+    margin: 0 auto;
+}
+th,td{
+    width:25%;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px;
+}
+caption{
+    background-color: darkblue;
+    padding: 4px;    
+}
