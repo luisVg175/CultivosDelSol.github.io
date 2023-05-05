@@ -1,0 +1,78 @@
+main{
+    font: 100% sans-serif;
+}
+
+.caja {
+    background: #365133;
+    display: block;
+    width: 90%;
+    margin: 10% auto;
+    padding: 30px;
+}
+
+.caja .form {
+    text-align: center;
+    max-width: 580px;
+    display: block;
+    margin: 0 auto;
+}
+
+.caja .form h3 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.caja .form h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.caja .form input {
+    width: 100%;
+    background: #365133;
+    border: 1px solid #FFF;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 13px 17px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+.caja .form textarea {
+    width: 100%;
+    background: #365133;
+    border: 1px solid #FFF;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 13px 17px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+.caja .form button {
+    background: #FFF;
+    border: 1px solid #FFF;
+    color: #365133;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 14px 78px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.caja .form button:hover {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background: #365133;
+  color: #FFF;
+}
