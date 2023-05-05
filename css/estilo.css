@@ -71,7 +71,7 @@ nav ul li a:hover {color: white;text-decoration: none;}
 nav ul li a:hover span{background-color: #0295f8; transition: all 0.5s ease;}
 
 footer{
-    margin-top: 400px;
+    margin-top: 50px;
     background-color: black;
     color: #ccc;
     font-size: 10px;
