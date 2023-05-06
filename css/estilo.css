@@ -107,3 +107,10 @@ p.lead {
     color: #373d41;
     font-size: 18px;
 }
+
+body{
+    background-color: rgba(43, 245, 120, 0.219);
+}
+main{
+ margin: 100px;
+}
