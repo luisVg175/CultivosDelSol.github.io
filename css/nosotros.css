@@ -1,0 +1,33 @@
+.noticias{
+	width: 30%;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+}
+
+.noticias img{
+	margin: 0.8em 0 1em;
+	text-align: center;
+    border-radius: 5%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+.noticias h1{
+	font-weight: normal;
+	color: #2e64a2;
+	margin: 0 0.5em 0.5em;
+}
+
+.noticias a:link{
+	text-decoration: none;
+}
+
+.noticias p{
+	font-size: 1.2em;
+	margin: 0 1em 1em;
+	color: #444;
+    text-decoration: none;
+}
