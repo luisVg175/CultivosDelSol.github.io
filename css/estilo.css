@@ -70,6 +70,7 @@ nav ul li a{
 nav ul li a:hover {color: white;text-decoration: none;}
 nav ul li a:hover span{background-color: #0295f8; transition: all 0.5s ease;}
 
+
 footer{
     margin-top: 50px;
     background-color: black;
@@ -78,6 +79,8 @@ footer{
     padding: 10px 0 5px;
     clear: both;
 }
+
+
 
 .footer_link{
     text-decoration: none;
@@ -130,9 +133,12 @@ main{
 }
 
 .espacio3{
-    padding: 25px;  
+    padding: 25px;
 }
 
+.espacio4{
+    padding-bottom: 300px;
+}
 
 
 .s2{
